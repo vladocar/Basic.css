@@ -1,0 +1,22 @@
+{
+  "name": "basiccss",
+  "version": "1.0.0",
+  "description": "Classless CSS Starter File",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladocar/Basic.css.git"
+  },
+  "keywords": [
+    "basic.css"
+  ],
+  "author": "Vladimir Carrer <vladocar@gmail.com> (http://www.vcarrer.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vladocar/Basic.css/issues"
+  },
+  "homepage": "https://github.com/vladocar/Basic.css#readme"
+}
