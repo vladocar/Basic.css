@@ -9,7 +9,7 @@ Classless CSS Starter File
 
 * * *
 
-Basic.css gives you basic CSS formatting and ability to make basic grids with only HTML5 syntax.
+Basic.css gives you basic CSS formatting and ability to make basic grids with only HTML5 syntax. You can use this project to Set your default styling.
 
 ### List of features
 
@@ -22,13 +22,13 @@ Basic.css gives you basic CSS formatting and ability to make basic grids with on
 *   Flex Grid without classes.
 *   Flex Grid cards.
 
+Demo: https://vladocar.github.io/Basic.css/
+
 This project uses the best parts from my previous projects:
 
-https://github.com/vladocar/Basic-CSS-Typography-Reset
-
-https://github.com/vladocar/infinity-css-grid
-
-https://github.com/vladocar/Simple-Button
+https://github.com/vladocar/Basic-CSS-Typography-Reset 
+https://github.com/vladocar/infinity-css-grid 
+https://github.com/vladocar/Simple-Button 
 
 ##### Change root css variables with your color palette
 
@@ -81,6 +81,7 @@ Use the HTML5 tags selection and aside to make flex grid.
 	<aside> 4 </aside>
 </section>
 ```
+Demo: https://vladocar.github.io/Basic.css/grid.html
 
 Use the HTML5 tags selection and article to make cards.
 
@@ -91,3 +92,20 @@ Use the HTML5 tags selection and article to make cards.
     <article> 3 </article>
 </section>
 ```
+Demo: https://vladocar.github.io/Basic.css/cards.html
+
+#### How to use this project?
+
+Simply download and personalize the **basic.css** file.
+
+Or
+
+```sh
+npm i @vladocar/basic.css
+```
+
+#### Why use this project?
+
+Instead of using CSS Reset why not just Set the basic css formatting and styling. You can even make some grids with the HTML5 tags. Naturally if you want to build something more complex you should use CSS classes. This project works great in combination with other CSS frameworks.
+
+
