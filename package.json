@@ -1,5 +1,5 @@
 {
-  "name": "basiccss",
+  "name": "@vladocar/basic.css",
   "version": "1.0.0",
   "description": "Classless CSS Starter File",
   "main": "index.js",
