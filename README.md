@@ -26,9 +26,9 @@ Demo: https://vladocar.github.io/Basic.css/
 
 This project uses the best parts from my previous projects:
 
-https://github.com/vladocar/Basic-CSS-Typography-Reset 
-https://github.com/vladocar/infinity-css-grid 
-https://github.com/vladocar/Simple-Button 
+https://github.com/vladocar/Basic-CSS-Typography-Reset  
+https://github.com/vladocar/infinity-css-grid  
+https://github.com/vladocar/Simple-Button  
 
 ##### Change root css variables with your color palette
 
@@ -70,7 +70,7 @@ Use the HTML5 tags selection and aside to make flex grid.
 
 ```html
 <section>
-  <aside> 1 </aside>
+  	<aside> 1 </aside>
 	<aside> 2 </aside>
 	<aside> 3 </aside>
 </section>
