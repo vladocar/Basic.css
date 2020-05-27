@@ -14,8 +14,8 @@ Basic.css gives you basic CSS formatting and ability to make basic grids with on
 ### List of features
 
 *   Lightweight 1kb minified and gzipped.
-*   Basic Typography.
-*   Basic Forms.
+*   Basic typography.
+*   Basic forms.
 *   Custom colors.
 *   Dark theme.
 *   Round corners.
@@ -24,13 +24,13 @@ Basic.css gives you basic CSS formatting and ability to make basic grids with on
 
 Demo: https://vladocar.github.io/Basic.css/
 
-This project uses the best parts from my previous projects:
+This project uses the best elements from my previous projects:
 
 https://github.com/vladocar/Basic-CSS-Typography-Reset  
 https://github.com/vladocar/infinity-css-grid  
 https://github.com/vladocar/Simple-Button  
 
-##### Change root css variables with your color palette
+##### You can change root css variables with your color palette:
 
 ```css
 :root{
@@ -42,7 +42,7 @@ https://github.com/vladocar/Simple-Button
 }
 ```
 
-##### Adjust the round corners
+##### Or adjust the round corners
 
 By default are 8px, use --rc: 0px; if you don't like round corners.
 
@@ -104,8 +104,8 @@ Or
 npm i @vladocar/basic.css
 ```
 
-#### Why use this project?
+#### Why should you use this project?
 
-Instead of using CSS Reset why not just Set the basic css formatting and styling. You can even make some grids with the HTML5 tags. Naturally if you want to build something more complex you should use CSS classes. This project works great in combination with other CSS frameworks.
+Instead of using CSS Reset you could just Set the basic css formatting and styling. You could even make some grids with the HTML5 tags. Naturally if you want to build something more complex you should use CSS classes and this project works great in combination with other CSS frameworks.
 
 
