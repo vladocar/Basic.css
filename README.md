@@ -26,9 +26,9 @@ Demo: https://vladocar.github.io/Basic.css/
 
 This project uses the best elements from my previous projects:
 
-https://github.com/vladocar/Basic-CSS-Typography-Reset  
-https://github.com/vladocar/infinity-css-grid  
-https://github.com/vladocar/Simple-Button  
+https://github.com/vladocar/Basic-CSS-Typography-Reset
+https://github.com/vladocar/infinity-css-grid
+https://github.com/vladocar/Simple-Button
 
 ##### You can change root css variables with your color palette:
 
@@ -66,24 +66,30 @@ By default are 8px, use --rc: 0px; if you don't like round corners.
 
 ##### How you can use the infinity flex grid?
 
-Use the HTML5 tags selection and aside to make flex grid.
+Use the HTML5 tags section and --col CSS variable to make flex grid.
 
 ```html
 <section>
-  	<aside> 1 </aside>
-	<aside> 2 </aside>
-	<aside> 3 </aside>
+	<div style="--col:1"> 1 </div>
+	<div style="--col:1"> 2 </div>
+	<div style="--col:1"> 3 </div>
 </section>
 <section>
-	<aside> 1 </aside>
-	<aside> 2 </aside>
-	<aside> 3 </aside>
-	<aside> 4 </aside>
+	<div style="--col:1">1</div>
+	<div style="--col:2">2</div>
+	<div style="--col:1">3</div>
+</section>
+<section>
+	<div style="--col:1"> 1 </div>
+	<div style="--col:2"> 2 </div>
+	<div style="--col:3"> 3 </div>
+	<div style="--col:2"> 4 </div>
+	<div style="--col:1"> 5 </div>
 </section>
 ```
 Demo: https://vladocar.github.io/Basic.css/grid.html
 
-Use the HTML5 tags selection and article to make cards.
+Use the HTML5 tags section and article to make cards.
 
 ```html
 <section>

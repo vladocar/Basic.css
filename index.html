@@ -17,7 +17,7 @@
 			padding: 0 20px;
 		}
 
-		aside {
+		*[style*="--col:"] {
 			color: #fff;
 			background-color: var(--c1);
 			padding: 15px;
@@ -27,7 +27,7 @@
 
 		@media (max-width: 481px) {
 			main,footer {width: 98%}
-			aside,article {flex:none; width:100%; margin-left: 0;}
+			*[style*="--col:"],article {flex:none; width:100%; margin-left: 0;}
 		}
 	</style>
 
@@ -64,7 +64,8 @@
 			<article>
 				<img src="img/grid.svg" />
 				<h4>Flex Grid without classes</h4>
-				<p>By putting <b>aside</b> tag inside <b>selection</b> tag container you could make infinite flex grid.
+				<p>By putting <b>style="--col:N"</b> attribute on an element inside <b>section</b> tag container you could make
+					infinite flex grid.
 				</p>
 			</article>
 			<article>
@@ -170,27 +171,26 @@ color:#111;
 
 
 		<section>
-			<aside> 1 </aside>
-			<aside> 2 </aside>
-			<aside> 3 </aside>
+			<div style="--col:1"> 1 </div>
+			<div style="--col:1"> 2 </div>
+			<div style="--col:1"> 3 </div>
 		</section>
 		<section>
-			<aside>1</aside>
-			<aside>2</aside>
-			<aside>3</aside>
-			<aside>4</aside>
+			<div style="--col:1">1</div>
+			<div style="--col:2">2</div>
+			<div style="--col:1">3</div>
 		</section>
 		<section>
-			<aside> 1 </aside>
-			<aside> 2 </aside>
-			<aside> 3 </aside>
-			<aside> 4 </aside>
-			<aside> 5 </aside>
+			<div style="--col:1"> 1 </div>
+			<div style="--col:2"> 2 </div>
+			<div style="--col:3"> 3 </div>
+			<div style="--col:2"> 4 </div>
+			<div style="--col:1"> 5 </div>
 		</section>
 
 
 		<h3>Forms</h3>
-		
+
 		<form>
 			<p>
 				<label for="Name">Name:</label><br />
@@ -209,20 +209,20 @@ color:#111;
 				<textarea id="Message" name="Message"></textarea>
 			</p>
 			<p>
-			<label>Lorem ipsum</label><br />
-			<select id="lorem"  name="Lorem ipsum">
-				<option selected="selected" value="1">Lorem ipsum</option>
-				<option value="2">dolor sit amet</option>
-				<option value="3"> consectetuer adipiscing</option>
-				<option value="4">vitae diam</option>
-				<option value="5">Vestibulum ornare</option>
-			</select>
+				<label>Lorem ipsum</label><br />
+				<select id="lorem"  name="Lorem ipsum">
+					<option selected="selected" value="1">Lorem ipsum</option>
+					<option value="2">dolor sit amet</option>
+					<option value="3"> consectetuer adipiscing</option>
+					<option value="4">vitae diam</option>
+					<option value="5">Vestibulum ornare</option>
+				</select>
 			</p>
 			<p>
 				<label>Number:</label><br />
-				<input  type="radio" name="radioSet" value="uno" />Uno<br />
-				<input  type="radio" name="radioSet"  value="due" />Due<br />
-				<input type="radio" name="radioSet"  value="tre" />Tre<br />	
+				<input type="radio" name="radioSet" value="uno" />Uno<br />
+				<input type="radio" name="radioSet" value="due" />Due<br />
+				<input type="radio" name="radioSet" value="tre" />Tre<br />
 			</p>
 			<p>
 				<button>Button </button>
@@ -230,20 +230,20 @@ color:#111;
 
 			</p>
 
-			
+
 		</form>
-		
+
 		<p><b><a href="https://github.com/vladocar/Basic.css">Download the project on Github</a></b></p>
 
 		<hr>
 	</main>
-<footer>
+	<footer>
 
 		<p>Made with ❤️ by <a href="https://github.com/vladocar">@vladocar</a> </p>
-</footer>
+	</footer>
 
 
-	
+
 </body>
 
 </html>

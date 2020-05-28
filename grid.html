@@ -17,39 +17,38 @@
 			text-align: left;
 			padding: 0 20px;
 		}
-		aside{
-        color: #fff;
-        background-color: #00bbeb;
-        padding: 15px;
-        margin: 10px 8px 10px 8px;
-        text-align: center;
-      }
+		*[style*="--col:"] {
+			color: #fff;
+			background-color: #00bbeb;
+			padding: 15px;
+			margin: 10px 8px 10px 8px;
+			text-align: center;
+		}
 	</style>
 
 </head>
 
 <body>
 	<main>
-	
-	<section>
-		<aside> 1 </aside>
-		<aside> 2 </aside>
-		<aside> 3 </aside>
-	</section>
-	<section>
-		<aside>1</aside>
-		<aside>2</aside>
-		<aside>3</aside>
-		<aside>4</aside>
-	</section>
-	<section>
-		<aside> 1 </aside>
-		<aside> 2 </aside>
-		<aside> 3 </aside>
-		<aside> 4 </aside>
-		<aside> 5 </aside>
-	</section>
-</main>
+
+		<section>
+			<div style="--col:1"> 1 </div>
+			<div style="--col:1"> 2 </div>
+			<div style="--col:1"> 3 </div>
+		</section>
+		<section>
+			<div style="--col:1">1</div>
+			<div style="--col:2">2</div>
+			<div style="--col:1">3</div>
+		</section>
+		<section>
+			<div style="--col:1"> 1 </div>
+			<div style="--col:2"> 2 </div>
+			<div style="--col:3"> 3 </div>
+			<div style="--col:2"> 4 </div>
+			<div style="--col:1"> 5 </div>
+		</section>
+	</main>
 </body>
 
 </html>
