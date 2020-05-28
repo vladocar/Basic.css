@@ -98,5 +98,3 @@ aside,article {flex:1; margin:var(--m1)}
 article {background: var(--c2); border-radius: var(--rc); padding: 1em; box-shadow: 0px 1px 0px rgba(0,0,0,0.3)}
 
 aside:first-child, article:first-child {margin-left:0}
-
-aside:last-child, article:last-child {margin-left:0}
