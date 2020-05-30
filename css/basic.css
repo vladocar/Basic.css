@@ -45,7 +45,7 @@ a {color: var(--c1);  text-decoration:none}
 
 a:hover {color: var(--c1); text-decoration: underline}
 
-pre {font: 1em/1.6 var(--mono); background: var(--c2); padding: 1em;}
+pre {font: 1em/1.6 var(--mono); background: var(--c2); padding: 1em; overflow: auto}
 
 code {font: 1em/1.6 var(--mono);}
 
@@ -100,4 +100,3 @@ article {background: var(--c2); border-radius: var(--rc); padding: 1em; box-shad
 
 aside:first-child, article:first-child {margin-left:0}
 
-aside:last-child, article:last-child {margin-left:0}

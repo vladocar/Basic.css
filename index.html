@@ -3,11 +3,11 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1.0" />
-	
+
 	<title>Basic.css - Classless CSS Starter File</title>
 	<meta name="author" content="Vladimir Carrer">
 
-	<link rel="stylesheet" href="css/basic.min.css" type="text/css">
+	<link rel="stylesheet" href="css/basic.css" type="text/css">
 
 	<style>
 		main,footer {
@@ -23,6 +23,11 @@
 			padding: 15px;
 			margin: 10px 8px 10px 8px;
 			text-align: center;
+		}
+
+		@media (max-width: 481px) {
+			main,footer {width: 98%}
+			aside,article {flex:none; width:100%; margin-left: 0;}
 		}
 	</style>
 
@@ -107,7 +112,7 @@
 		<p>Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt
 			ut labore et dolore magna aliqua.</p>
 
-		<pre>body { font:0.8125em/1.618 Arial, sans-serif;
+		<pre>body { font:0.8125em/1.618 sans-serif;
 background-color:#fff;
 color:#111;
 }</pre>
