@@ -81,20 +81,20 @@ pre,code,input,select,textarea,button,img {border-radius: var(--rc)}
 
 /* Forms */
 
-input,select,textarea{font-size: 1em; color:var(--c4); background: var(--c2); border: 0; padding: 0.6em}
+input, select, textarea{font-size: 1em; color:var(--c4); background: var(--c2); border: 0; padding: 0.6em}
 
-button {font-size: 1em; display: inline-block; color: var(--c5); background: var(--c1);  border: 0; margin: 0 4px;  padding: 0.6em; cursor: pointer; text-align: center}
+button, input[type=submit], input[type=reset], input[type="button"] {font-size: 1em; display: inline-block; color: var(--c5); background: var(--c1);  border: 0; margin: 0 4px;  padding: 0.6em; cursor: pointer; text-align: center}
 
-button:hover,button:focus,input:hover,textarea:hover,select:hover {opacity: 0.8}
+button:hover, button:focus, input:hover, textarea:hover, select:hover {opacity: 0.8}
 
 /* Infinite Grid */
 
 section{display: flex; flex-flow: row wrap}
 
-aside,article {flex:1; margin:var(--m1)}
+[style*="--c:"], aside, article {flex:var(--c,1); margin:var(--m1)}
 
 /* Cards */
 
 article {background: var(--c2); border-radius: var(--rc); padding: 1em; box-shadow: 0px 1px 0px rgba(0,0,0,0.3)}
 
-aside:first-child, article:first-child {margin-left:0}
+[style*="--c:"]:first-child, aside:first-child, article:first-child {margin-left:0}

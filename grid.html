@@ -17,7 +17,7 @@
 			text-align: left;
 			padding: 0 20px;
 		}
-		aside{
+		[style*="--c:"],aside{
         color: #fff;
         background-color: #00bbeb;
         padding: 15px;
@@ -30,7 +30,7 @@
 
 <body>
 	<main>
-	
+<h1>Simple Grid</h1>	
 	<section>
 		<aside> 1 </aside>
 		<aside> 2 </aside>
@@ -48,6 +48,37 @@
 		<aside> 3 </aside>
 		<aside> 4 </aside>
 		<aside> 5 </aside>
+	</section>
+<h2>Complex grid</h2>
+	<section>
+		<aside> 1 </aside>
+		<aside> 2 </aside>
+		<aside> 3 </aside>
+	</section>
+	<section>
+		<aside style = "--c:2">Merge the first 2 columns</aside>
+		<aside>2</aside>
+		<aside>3</aside>
+		<aside>4</aside>
+	</section>
+	<section>
+		<aside> 1 </aside>
+		<aside style = "--c:3"> Merge 3 columns </aside>
+		<aside> 3 </aside>
+	</section>
+	<section>
+		<aside>1</aside>
+		<aside style = "--c:2">Merge 2</aside>
+		<aside style = "--c:3">Merge 3</aside>
+		<aside>4</aside>
+		<aside>5</aside>
+		<aside>6</aside>
+		<aside>7</aside>
+	</section>
+	<section>
+		<div style = "--c:1"> 1 </div>
+		<div style = "--c:2"> Merge 2 columns</div>
+		<div style = "--c:1"> 3 </div>
 	</section>
 </main>
 </body>
