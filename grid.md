@@ -9,21 +9,21 @@ The simple grid is based on this code:
 
 ```css
 section{display: flex; flex-flow: row wrap}
-aside {flex:1}
+section {flex:1}
 ```
 And the HTML looks like this:
 
 ```html
 <section>
-	<aside> 1 </aside>
-	<aside> 2 </aside>
-	<aside> 3 </aside>
+	<section> 1 </section>
+	<section> 2 </section>
+	<section> 3 </section>
 </section>
 <section>
-	<aside> 1 </aside>
-	<aside> 2 </aside>
-	<aside> 3 </aside>
-	<aside> 4 </aside>
+	<section> 1 </section>
+	<section> 2 </section>
+	<section> 3 </section>
+	<section> 4 </section>
 </section>
 ```
 You can add as many columns as you like. 
@@ -46,9 +46,9 @@ And is used like this:
 
 ```html
 <section>
-	<aside> 1 </aside>
-	<aside style = "--c:3"> Merge 3 columns </aside>
-	<aside> 3 </aside>
+	<section> 1 </section>
+	<section style = "--c:3"> Merge 3 columns </section>
+	<section> 3 </section>
 </section>
 ```
 

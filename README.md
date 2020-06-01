@@ -66,19 +66,19 @@ By default are 8px, use --rc: 0px; if you don't like round corners.
 
 ##### How you can use the infinity flex grid?
 
-Use the HTML5 tags selection and aside to make flex grid.
+Use the HTML5 tags section and nested section to make flex grid.
 
 ```html
 <section>
-  	<aside> 1 </aside>
-	<aside> 2 </aside>
-	<aside> 3 </aside>
+  	<section> 1 </section>
+	<section> 2 </section>
+	<section> 3 </section>
 </section>
 <section>
-	<aside> 1 </aside>
-	<aside> 2 </aside>
-	<aside> 3 </aside>
-	<aside> 4 </aside>
+	<section> 1 </section>
+	<section> 2 </section>
+	<section> 3 </section>
+	<section> 4 </section>
 </section>
 ```
 Demo: https://vladocar.github.io/Basic.css/grid.html
