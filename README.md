@@ -1,5 +1,5 @@
 [![License MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
-[![Gzip Size](https://img.badgesize.io/https://unpkg.com/@vladocar/basic.css@1.0.0/css/basic.min.css?compression=gzip)](https://unpkg.com/@vladocar/basic.css@1.0.0/css/basic.min.css)
+[![Gzip Size](https://img.badgesize.io/https://unpkg.com/@vladocar/basic.css@1.0.1/css/basic.min.css?compression=gzip)](https://unpkg.com/@vladocar/basic.css@1.0.1/css/basic.min.css)
 
 
 Basic.css
