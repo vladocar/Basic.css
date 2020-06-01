@@ -1,6 +1,6 @@
 {
   "name": "@vladocar/basic.css",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Classless CSS Starter File",
   "main": "index.js",
   "scripts": {
