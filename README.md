@@ -109,3 +109,8 @@ npm i @vladocar/basic.css
 Instead of using CSS Reset you could just Set the basic css formatting and styling. You could even make some grids with the HTML5 tags. Naturally if you want to build something more complex you should use CSS classes and this project works great in combination with other CSS frameworks.
 
 
+### Bonus comic:
+
+![Comic xkcd style](comic.png)
+
+Modified text from the original [https://xkcd.com/2309/](https://xkcd.com/2309/)
