@@ -10,6 +10,7 @@
 --c3:#fff;
 --c4:#000;
 --c5:#fff;
+--c6: #551a8b;
 --m1: 8px;
 --rc: 8px;
 }
@@ -43,6 +44,8 @@ body {
 img, iframe {border: none; max-width: 100%}
 
 a {color: var(--c1);  text-decoration:none}
+
+a:visited{color: var(--c1)}
 
 a:hover {color: var(--c1); text-decoration: underline}
 
