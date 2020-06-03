@@ -45,7 +45,7 @@ img, iframe {border: none; max-width: 100%}
 
 a {color: var(--c1);  text-decoration:none}
 
-a:visited{color: var(--c1)}
+a:visited{color: var(--c6)}
 
 a:hover {color: var(--c1); text-decoration: underline}
 
