@@ -33,12 +33,12 @@ https://github.com/vladocar/Simple-Button
 ##### You can change root css variables with your color palette:
 
 ```css
-:root{
---c1:#0074d9;
---c2:#eee;
---c3:#fff;
---c4:#000;
---c5:#fff;
+:root {
+  --c1:#0074d9;
+  --c2:#eee;
+  --c3:#fff;
+  --c4:#000;
+  --c5:#fff;
 }
 ```
 
@@ -47,8 +47,8 @@ https://github.com/vladocar/Simple-Button
 By default are 8px, use --rc: 0px; if you don't like round corners.
 
 ```css
-:root{
---rc: 8px;
+:root {
+  --rc: 8px;
 }
 ```
 
@@ -57,9 +57,9 @@ By default are 8px, use --rc: 0px; if you don't like round corners.
 ```css
 @media (prefers-color-scheme: dark) {
 	:root {
-        --c2:#333;
-        --c3:#1e1f20;
-        --c4:#fff;
+          --c2:#333;
+          --c3:#1e1f20;
+          --c4:#fff;
 	}
 }
 ```
@@ -70,7 +70,7 @@ Use the HTML5 tags section and nested section to make flex grid.
 
 ```html
 <section>
-  	<section> 1 </section>
+	<section> 1 </section>
 	<section> 2 </section>
 	<section> 3 </section>
 </section>
