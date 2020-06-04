@@ -57,9 +57,9 @@ By default are 8px, use --rc: 0px; if you don't like round corners.
 ```css
 @media (prefers-color-scheme: dark) {
 	:root {
-          --c2:#333;
-          --c3:#1e1f20;
-          --c4:#fff;
+	  --c2:#333;
+	  --c3:#1e1f20;
+	  --c4:#fff;
 	}
 }
 ```
