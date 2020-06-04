@@ -72,7 +72,7 @@ h5,h6 {font-size: 1em; font-weight:bold}
 
 table {border-collapse: collapse; border-spacing: 0; margin:1em 0}
 
-th, td {text-align: left; vertical-align: top;border: 1px solid; padding: 0.4em}
+th, td {text-align: left; vertical-align: top; border: 1px solid; padding: 0.4em}
 
 thead,tfoot {background: var(--c2)}
 
