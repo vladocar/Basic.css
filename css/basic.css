@@ -85,7 +85,7 @@ pre,code,input,select,textarea,button,img {border-radius: var(--rc)}
 
 input, select, textarea {font-size: 1em; color:var(--c4); background: var(--c2); border: 0; padding: 0.6em}
  
-button, input[type=submit], input[type=reset], input[type="button"] { -webkit-appearance: none; font-size: 1em; display: inline-block; color: var(--c5); background: var(--c1);  border: 0; margin: 0 4px;  padding: 0.6em; cursor: pointer; text-align: center}
+button, input[type=submit], input[type=reset], input[type="button"] { -webkit-appearance: none; font-size: 1em; display: inline-block; color: var(--c5); background: var(--c1);  border: 0; margin: 4px;  padding: 0.6em; cursor: pointer; text-align: center}
 
 button:hover, button:focus, input:hover, textarea:hover, select:hover {opacity: 0.8}
 
