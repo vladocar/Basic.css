@@ -1,0 +1,10 @@
+:root{
+    --c1:#ff8e3c;
+    --c2:#fff;
+    --c3:#eff0f3;
+    --c4:#2a2a2a;
+    --c5:#fff;
+    }
+
+    blockquote {border-left: 5px solid var(--c1)}
+    thead,tfoot {background: var(--c1)}

@@ -1,0 +1,5 @@
+@media (max-width: 481px) {
+    body {font-size: 18px}
+    main,header,footer {width: calc(100% - 32px)}
+    section,article {flex:none; width:100%; margin-left: 0}
+} 
