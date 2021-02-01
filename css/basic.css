@@ -101,3 +101,12 @@ article {background: var(--c2); border-radius: var(--rc); padding: 1em; box-shad
 
 [style*="--c:"]:first-child, section>section:first-child, article:first-child {margin-left:0}
 [style*="--c:"]:last-child, section>section:last-child, article:last-child {margin-right:0}
+
+
+
+
+@media (max-width: 481px) {
+    body {font-size: 18px}
+    main,header,footer {width: calc(100% - 32px)}
+    section,article {flex:none; width:100%; margin-left: 0}
+} 
